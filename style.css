@@ -1,0 +1,11 @@
+*{box-sizing: border-box;}
+.image-container{
+    width: 25%;
+    padding: 5px;
+    float:left;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
